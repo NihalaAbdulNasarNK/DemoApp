@@ -226,5 +226,13 @@ fixtures = [
                 ]
             ]
         ]
+    },
+    
+    {
+        "doctype": "Custom Field",
+        "filters": [["name", "=", "custom_item_type"]]  # Replace with the exact custom field name
     }
 ]
+
+    
+
