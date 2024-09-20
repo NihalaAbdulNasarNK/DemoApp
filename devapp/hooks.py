@@ -230,7 +230,7 @@ fixtures = [
     
     {
         "doctype": "Custom Field",
-        "filters": [["name", "=", "custom_item_type"]]  # Replace with the exact custom field name
+        "filters": [["name", "in", "Item-custom_item_type"]]  # Replace with the exact custom field name
     }
 ]
 
