@@ -213,3 +213,18 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"devapp.auth.validate"
 # ]
+
+fixtures = [
+    {
+        "doctype":"Item Type",
+        "filters":[
+            [
+                "item_type_name",
+                "in",
+                [
+                    "Silver"
+                ]
+            ]
+        ]
+    }
+]
